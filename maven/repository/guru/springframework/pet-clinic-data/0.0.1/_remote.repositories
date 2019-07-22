@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Jul 22 09:24:18 CEST 2019
+pet-clinic-data-0.0.1.pom>=
+pet-clinic-data-0.0.1.jar>=
+pet-clinic-data-0.0.1-javadoc.jar>=
+pet-clinic-data-0.0.1-sources.jar>=
