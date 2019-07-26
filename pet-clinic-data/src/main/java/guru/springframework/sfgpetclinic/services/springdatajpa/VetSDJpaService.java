@@ -1,10 +1,10 @@
 package guru.springframework.sfgpetclinic.services.springdatajpa;
 
 import guru.springframework.sfgpetclinic.model.Vet;
+import guru.springframework.sfgpetclinic.repositories.VetRepository;
 import guru.springframework.sfgpetclinic.services.VetService;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
-import repositories.VetRepository;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -29,7 +29,7 @@ public class VetSDJpaService implements VetService {
 
     @Override
     public Vet findById(Long aLong) {
-        return vetRepository.findById(aLong).orElse(null*);
+        return vetRepository.findById(aLong).orElse(null);
     }
 
     @Override
