@@ -12,9 +12,11 @@ public class Pet extends NamedEntity {
     @ManyToOne
     @JoinColumn(name = "type_id")
     private PetType petType;
+
     @ManyToOne
     @JoinColumn(name = "owner_id")
     private Owner owner;
+
     @Column(name = "birth_date")
     private LocalDate birthDate;
 
